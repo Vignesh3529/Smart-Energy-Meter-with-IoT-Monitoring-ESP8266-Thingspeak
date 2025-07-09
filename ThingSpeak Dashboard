@@ -1,0 +1,48 @@
+📊 Create a ThingSpeak Dashboard for Your Smart Energy Meter
+✅ 1. Create a Free ThingSpeak Account
+Go to https://thingspeak.com
+
+Sign up or log in with your MathWorks account (or Google)
+
+✅ 2. Create a New Channel
+Click “Channels” > “New Channel”
+
+Fill out:
+
+Name: Smart Energy Meter
+
+Field 1: Current (Amps)
+
+Field 2: Power (Watts)
+
+(Optional: Add Field 3 for Voltage, Field 4 for Energy, etc.)
+
+Check the boxes to make those fields active
+
+Click “Save Channel”
+
+✅ 3. Copy Your API Keys
+Go to the “API Keys” tab of your channel
+
+Copy the Write API Key (used in Arduino code)
+
+Note your Channel ID (used to send data)
+
+✅ 4. Set Up Graphs (Visualization)
+Go to “Private View” tab (or “Public View” if you enable public sharing)
+
+Click “Add Visualization”
+
+For each field:
+
+Type: Line Chart
+
+Title: Example – “Live Power Usage (Watts)”
+
+Field: e.g., Field 2
+
+Set Y-axis range if needed
+
+Click Save
+
+Repeat for all fields (current, voltage, power, etc.)
